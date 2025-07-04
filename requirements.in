@@ -1,0 +1,6 @@
+dash==3.0.4
+plotly==6.0.1
+pytz==2025.2
+Requests==2.32.4
+timezonefinder==6.5.9
+gunicorn==23.0.0
