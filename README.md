@@ -29,11 +29,11 @@ Click [SkyLite](https://huggingface.co/spaces/Machini/WeatherLens)
 
 Using SkyLite is straightforward:
 
-**Step 1. Enter Location:** In the input box, type the name of the city and its two-letter country code (e.g., "London, GB", "New York City, US", "Tokyo, JP").
+*Step 1. Enter Location:* In the input box, type the name of the city and its two-letter country code (e.g., "London, GB", "New York City, US", "Tokyo, JP").
 
-**Step 2. Select Weather Source:** Choose your preferred weather data provider (AccuWeather or OpenWeather) from the dropdown menu.
+*Step 2. Select Weather Source:* Choose your preferred weather data provider (AccuWeather or OpenWeather) from the dropdown menu.
 
-**Step 3. Get Forecast:** Click the "Search" button to fetch and display the latest weather forecast for your chosen location and source.
+*Step 3. Get Forecast:* Click the "Search" button to fetch and display the latest weather forecast for your chosen location and source.
 
 ### Detailed Configuration Steps
 To set up and run SkyLite locally, follow these steps:
@@ -67,7 +67,7 @@ For further details on obtaining and configuring these APIs, please refer to the
 
 **Installation**
 
-Step 1: *Clone the repository (if applicable):*
+Step 1: *Clone the repository:*
 
 ```bash
 git clone https://github.com/Asmit-cloud/SkyLite.git
