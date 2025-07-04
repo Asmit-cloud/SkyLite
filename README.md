@@ -25,6 +25,16 @@
 ### Skip The Setup: Just Click
 Click [SkyLite](https://huggingface.co/spaces/Machini/WeatherLens)
 
+**How to Use SkyLite**
+
+Using SkyLite is straightforward:
+
+**Step 1. Enter Location:** In the input box, type the name of the city and its two-letter country code (e.g., "London, GB", "New York City, US", "Tokyo, JP").
+
+**Step 2. Select Weather Source:** Choose your preferred weather data provider (AccuWeather or OpenWeather) from the dropdown menu.
+
+**Step 3. Get Forecast:** Click the "Search" button to fetch and display the latest weather forecast for your chosen location and source.
+
 ### Detailed Configuration Steps
 To set up and run SkyLite locally, follow these steps:
 
