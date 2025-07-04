@@ -34,7 +34,7 @@ short_description: WeatherLens is designed to provide weather forecasts.
 ## Getting Started
 
 ### Skip The Setup: Just Click
-Click [SkyLite]()
+Click [SkyLite](https://huggingface.co/spaces/Machini/WeatherLens)
 
 ### Detailed Configuration Steps
 To set up and run SkyLite locally, follow these steps:
