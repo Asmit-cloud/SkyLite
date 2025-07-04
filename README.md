@@ -1,14 +1,3 @@
----
-title: WeatherLens
-emoji: 😻
-colorFrom: blue
-colorTo: gray
-sdk: docker
-pinned: false
-license: mit
-short_description: WeatherLens is designed to provide weather forecasts.
----
-
 # SkyLite: Your Clear View of the Skies, Anytime, Anywhere
 
 ![SkyLite Image](assets/Image/Image.jpg)
