@@ -25,15 +25,15 @@
 ### Skip The Setup: Just Click
 Click [SkyLite](https://huggingface.co/spaces/Machini/WeatherLens)
 
-**How to Use SkyLite**
+### How to Use SkyLite
 
 Using SkyLite is straightforward:
 
-*Step 1. Enter Location:* In the input box, type the name of the city and its two-letter country code (e.g., "London, GB", "New York City, US", "Tokyo, JP").
+1. In the input box, type the name of the city and its two-letter country code (e.g., "London, GB", "New York City, US", "Tokyo, JP").
 
-*Step 2. Select Weather Source:* Choose your preferred weather data provider (AccuWeather or OpenWeather) from the dropdown menu.
+2. Choose your preferred weather data provider (AccuWeather or OpenWeather) from the dropdown menu.
 
-*Step 3. Get Forecast:* Click the "Search" button to fetch and display the latest weather forecast for your chosen location and source.
+3. Click the "Search" button to fetch and display the latest weather forecast for your chosen location and source.
 
 ### Detailed Configuration Steps
 To set up and run SkyLite locally, follow these steps:
@@ -44,7 +44,7 @@ To set up and run SkyLite locally, follow these steps:
 
 2.  pip (Python package installer)
 
-3.  **API Keys for AccuWeather and OpenWeather.** For secure deployment (e.g., on Hugging Face Spaces) and to prevent exposing your keys in a public repository, these are loaded from environment variables.  
+3.  API Keys for AccuWeather and OpenWeather: For secure deployment (e.g., on Hugging Face Spaces) and to prevent exposing your keys in a public repository, these are loaded from environment variables.  
 For further details on obtaining and configuring these APIs, please refer to the **API Documentation section** below.
 
     * **For Deployment (e.g., Hugging Face Spaces):** You will set `ACCUWEATHER_API_KEY` and `OPENWEATHER_API_KEY` as "Secrets" in your Space's settings.  
