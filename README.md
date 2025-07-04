@@ -262,7 +262,7 @@ If you have suggestions for improvements, bug reports, or new features, please f
 Please review the [Code of Conduct](CODE_OF_CONDUCT.md) before contributing. We aim to foster an open and welcoming environment.
 
 ### Support Channels
-For questions, bug reports, or feature requests, please open an issue on the project's GitHub Issues page.
+For questions, bug reports, or feature requests, please open an issue on the project's [GitHub Issues page](https://github.com/Asmit-cloud/SkyLite/issues).
 
 
 
