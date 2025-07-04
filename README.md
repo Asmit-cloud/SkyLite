@@ -55,8 +55,8 @@ To set up and run SkyLite locally, follow these steps:
 Step 1: *Clone the repository (if applicable):*
 
 ```bash
-git clone <PROVIDE_THE_ACTUAL_REPOSITORY_URL>
-cd <PROVIDE_THE_ACTUAL_REPOSITORY_NAME>
+git clone https://github.com/Asmit-cloud/SkyLite.git
+cd SkyLite
 ```
 
 Step 2: *Create a virtual environment (recommended):*
@@ -76,16 +76,21 @@ pip install -r requirements.txt
 
 1. Ensure assets folder exists: Create an assets folder in the same directory as SkyLite.py.
 
-2. **Place API keys:**
+2. **Set Up API keys:**
 
-Create `apiKeyWeatherForecast.json` inside the `assets/api_keys` folder as described in the `Prerequisites` section.
+API keys are loaded from environment variables for secure management.
+
+* **For local development:** Create and configure a `.env` file in your project's root directory, as detailed in the **Prerequisites** section.
+    
+* **For deployment (e.g., Hugging Face Spaces):** Set your API keys as secrets in the platform's settings, as described in the **Prerequisites** section.
 
 3. **Add icons:**
 
 The application expects weather icons to be present in `assets/Image/AccuWeatherIcons` and `assets/Image/OpenWeatherIcons`.
 <br>
 You'll need to populate these folders with the necessary images as referenced in the SkyLite.py file. (e.g., SearchButtonImage.png, AW_RGB_R.png, and the various weather icons).
-<br>
+
+
 You can use placeholder images if you don't have the exact icons.
 
 4. **Run the Dash app:**
@@ -173,6 +178,8 @@ The interactive Plotly graphs allow you to zoom in on specific time periods by c
 ├── assets/ 
 │   ├── AccuWeatherIcons/      
 │   │   ├── Sunny_(1).png
+│   │   ├── MostlySunny_(2)
+│   │   ├── PartlySunny_(3)
 │   │   └── ...
 │   ├── api_keys
 │   │      └── apiKeyWeatherForecast.json # Your API keys
@@ -187,6 +194,8 @@ The interactive Plotly graphs allow you to zoom in on specific time periods by c
 │   │      └── SearchButtonImage.png
 │   ├── OpenWeatherIcons/      
 │   │   ├── ClearSkyDay_(01d).png
+│   │   ├── ClearSkyNight_(01n)
+│   │   ├── FewCloudsDay_(02d)
 │   │   └── ...
 ├── LICENSE
 ├── README.md
