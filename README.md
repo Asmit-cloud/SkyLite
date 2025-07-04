@@ -37,7 +37,8 @@ To set up and run SkyLite locally, follow these steps:
 3.  **API Keys for AccuWeather and OpenWeather.** For secure deployment (e.g., on Hugging Face Spaces) and to prevent exposing your keys in a public repository, these are loaded from environment variables.  
 For further details on obtaining and configuring these APIs, please refer to the **API Documentation section** below.
 
-    * **For Deployment (e.g., Hugging Face Spaces):** You will set `ACCUWEATHER_API_KEY` and `OPENWEATHER_API_KEY` as "Secrets" in your Space's settings.
+    * **For Deployment (e.g., Hugging Face Spaces):** You will set `ACCUWEATHER_API_KEY` and `OPENWEATHER_API_KEY` as "Secrets" in your Space's settings.  
+    For detailed instructions on how to add secrets, please refer to the official [Hugging Face Spaces documentation on Secrets and Variables](https://huggingface.co/docs/hub/spaces-overview#configure-secrets-and-variables).
     
     * **For Local Development:** Create a `.env` file in the root of your project (and ensure it's in your `.gitignore`) with the following content:
     
@@ -46,7 +47,12 @@ For further details on obtaining and configuring these APIs, please refer to the
         OPENWEATHER_API_KEY=YOUR_OPENWEATHER_API_KEY
         ```
         
-        You will also need to install `python-dotenv` (`pip install python-dotenv`) and add `from dotenv import load_dotenv; load_dotenv()` at the beginning of your `SkyLite.py` file to load these variables locally.
+        You will also need to install `python-dotenv` (`pip install python-dotenv`). To load these environment variables locally, add the following lines at the very beginning of your `SkyLite.py` file:
+        
+        ```python
+        from dotenv import load_dotenv
+        load_dotenv()
+        ```
 <br>
 
 **Installation**
@@ -195,10 +201,11 @@ The interactive Plotly graphs allow you to zoom in on specific time periods by c
 │   │   ├── FewCloudsDay_(02d)
 │   │   └── ...
 ├── LICENSE
+├── SkyLite.py
 ├── README.md
 ├── requirements.in
-├── requirements.txt
-└── SkyLite.py 
+└──  requirements.txt
+ 
 ```
 
 
