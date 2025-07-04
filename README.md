@@ -5,7 +5,6 @@
 <br>
 
 ## The Foundation
----
 
 ### Value Proposition
 
@@ -22,7 +21,6 @@
 
 
 ## Getting Started
----
 
 ### Skip The Setup: Just Click
 Click [SkyLite]()
@@ -36,7 +34,8 @@ To set up and run SkyLite locally, follow these steps:
 
 2.  pip (Python package installer)
 
-3.  **API Keys for AccuWeather and OpenWeather.** For secure deployment (e.g., on Hugging Face Spaces) and to prevent exposing your keys in a public repository, these are loaded from environment variables. For further details on obtaining and configuring these APIs, please refer to the **API Documentation section** below.
+3.  **API Keys for AccuWeather and OpenWeather.** For secure deployment (e.g., on Hugging Face Spaces) and to prevent exposing your keys in a public repository, these are loaded from environment variables.  
+For further details on obtaining and configuring these APIs, please refer to the **API Documentation section** below.
 
     * **For Deployment (e.g., Hugging Face Spaces):** You will set `ACCUWEATHER_API_KEY` and `OPENWEATHER_API_KEY` as "Secrets" in your Space's settings.
     
@@ -74,7 +73,7 @@ pip install -r requirements.txt
 
 **Running the Application**
 
-1. Ensure assets folder exists: Create an assets folder in the same directory as SkyLite.py.
+1. **Ensure assets folder exists:** Create an assets folder in the same directory as SkyLite.py.
 
 2. **Set Up API keys:**
 
@@ -116,7 +115,6 @@ After launching the application, you can interact with it as follows:
 
 
 ## Unveiling the Features
----
 
 
 ### Key Features
@@ -149,7 +147,6 @@ The interactive Plotly graphs allow you to zoom in on specific time periods by c
 
 
 ## Diving Deeper
----
 
 
 ### Technical Stack
@@ -226,7 +223,6 @@ SkyLite uses the following external APIs:
 
 
 ## Contributing and Support
----
 
 
 ### How to Contribute
@@ -254,7 +250,6 @@ For questions, bug reports, or feature requests, please open an issue on the pro
 
 
 ## Essential Information
----
 
 
 ### License
