@@ -1,3 +1,14 @@
+---
+title: WeatherLens
+emoji: 😻
+colorFrom: blue
+colorTo: gray
+sdk: docker
+pinned: false
+license: mit
+short_description: WeatherLens is designed to provide weather forecasts.
+---
+
 # SkyLite: Your Clear View of the Skies, Anytime, Anywhere
 
 ![SkyLite Image](assets/Image/Image.jpg)
@@ -273,4 +284,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 ### Contact Information
 For direct inquiries, you can [email me](mailto:byte.100.tron@gmail.com).
-
