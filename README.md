@@ -289,5 +289,4 @@ This project is licensed under the [MIT License](LICENSE).
     * Specific weather icons sourced from AccuWeather and OpenWeather APIs (refer to `assets/Attributions/aw_attributions.json` and `assets/Attributions/ow_attributions.json` files for details).
 
 ### Contact Information
-
 For direct inquiries, you can [email me](mailto:byte.100.tron@gmail.com).
