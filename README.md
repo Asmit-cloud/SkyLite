@@ -290,6 +290,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ### Contact Information
 
-* For direct inquiries, you can [email me](mailto:byte.100.tron@gmail.com).
-
-* For professional networking, you can connect on [LinkedIn](https://www.linkedin.com/in/asmit-de-orbitingwithpython).
+For direct inquiries, you can [email me](mailto:byte.100.tron@gmail.com).
